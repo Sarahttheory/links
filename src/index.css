@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #09090b; /* Глубокий черный */
+  --color-surface: #18181b;    /* Цвет карточек */
+  --color-primary: #8b5cf6;    /* Фиолетовый */
+  --color-secondary: #3b82f6;  /* Голубой */
+}
+
+body {
+  background-color: var(--color-background);
+  color: #f4f4f5;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+:root {
+  --accent: #3b82f6;
+  --accent-bg: #eff6ff;
+  --accent-border: #93c5fd;
+
+  --border: #27272a;
+  --text-h: #ffffff;
+  --social-bg: #27272a;
+}
