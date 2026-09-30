@@ -7,5 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/saraht/',
+  base: '/links/',
 })
